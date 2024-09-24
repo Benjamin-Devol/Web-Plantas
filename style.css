@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    width: 800px;
+    height: 100px;
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.header-subtitle {
+    margin: 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.text-body{
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    position: relative; top: -250px; left: 500px;
+}
+
+.subtext-body{
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+    position: relative; top: -250px; left: 500px;
+}
+
+
+.plant-section img {
+    position: relative; right: -200px;
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+
